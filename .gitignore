@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.zip
+data/processed/
+
+# Model weights/tokenizer copies are too large for GitHub (>100 MB). They stay on Kaggle.
+# Keep only checkpoint_info.json (the hyperparameters + metrics of each saved checkpoint).
+*.safetensors
+*.bin
+*.pt
+outputs/**/best/*
+outputs/**/final/*
+!outputs/**/best/checkpoint_info.json
+!outputs/**/final/checkpoint_info.json
+outputs/**/adapter/
+outputs/**/merged/
+outputs/**/checkpoint-*/
