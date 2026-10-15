@@ -2,7 +2,7 @@
 
 **PA2 submission, Hussnain Ali Murtaza (25280069).** From-scratch supervised fine-tuning and Direct Preference Optimization (HH-RLHF and UltraFeedback) on `Qwen/Qwen2.5-0.5B`, plus TRL DPOTrainer + LoRA persona tuning on `SmolLM2-360M-Instruct`. Everything ran on Kaggle (2× Tesla T4).
 
-- **Report:** [`report/PA2_report.pdf`](report/PA2_report.pdf) (LaTeX source: [`report/main.tex`](report/main.tex))
+- **Report:** [`25280069_report.pdf`](25280069_report.pdf) (LaTeX source: [`report/main.tex`](report/main.tex))
 - **Executed Kaggle notebooks, with outputs:** [`notebooks/kaggle_runs/`](notebooks/kaggle_runs/)
 - **Concepts and design notes:** [`GUIDE.md`](GUIDE.md), [`EXPLAINED.md`](EXPLAINED.md)
 
